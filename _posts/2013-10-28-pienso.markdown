@@ -1,0 +1,55 @@
+---
+layout: post
+title:  "Complemento alimenticio Happy Dog ArthroFit"
+categories: jekyll update
+price: 75 Euros
+image: /images/pienso.jpg
+category: Comida
+avatar: /images/components.png
+---
+
+<h2>{{ page.title }}</h2>
+<div class=row>
+<div id="left" class=col-md-4>
+	<img src="{{ site.baseurl }}{{ page.image }}" alt="{{ page.title }}">
+	<h3>{{ page.price }}</h3>
+	<button type="button" class="btn btn-primary btn-lg">Comprar</button>
+</div>
+
+<div id="right" class=col-md-8>
+	<ul class="nav nav-tabs" id="myTab">
+	  <li class="active"><a href="#description" data-toggle="tab">Descripción</a></li>
+	  <li><a href="#specifications" data-toggle="tab">Especificaciones Técnicas</a></li>
+	  <li><a href="#comments" data-toggle="tab">Comentarios</a></li>
+	</ul>
+
+	<div class="tab-content">
+	  <div class="tab-pane active" id="description">
+		<p><strong>Con elementos funcionales para las articulaciones, aporta lo básico para carencias en el suministro de nutrientes de las articulaciones, el tejido conjuntivo y el disco invertebral.</strong></p>
+		<p>Los moluscos marinos como principal componente de Arthrofit suministran una mezcla compleja de nutrientes, cuyos componentes (sobre todo glucósidos polisacáridos, glicoproteína, lípidos) actúan de una manera sinérgica. Los moluscos, especialmente seleccionados y controlados en el lugar de procesamiento, ofrecen una composición de materias primas de alto valor.</p>
+	  </div>
+	  <div class="tab-pane" id="specifications">
+	  	<ul>
+			<li>Germen de maíz, zanahorias, hojuelas de avena molidas, levadura de cerveza, dextrosa, perejil, manzana seca, extracto de almejas, harina de algas marinas, aceite de linaza prensado al frío, sal, óxido de magnesio, mezcla de aminoácidos, mezcla de minerales
+			<li>Arthrofit se mezcla con el alimento normal. 
+			Suministro para cerca de 60 días. En el caso de problemas crónicos o de largo plazo suministrar sólo cada 2 o 3 días la dosis normal.
+			Al principio diariamente 1,0 - 1,5 g por kg de peso (durante cerca de 2 semanas), después lentamente pasar diariamente a 0,5 - 0,75 g por kg de peso (dosis normal).
+	  	</ul>
+	  </div>
+	  <div class="tab-pane" id="comments">		  
+		  <div class="media">
+		    <a class="pull-left" href="#">
+		      <img class="media-object" src="{{ site.baseurl }}{{ page.avatar }}" alt="avatar">
+		    </a>
+		    <div class="media-body">
+		      <h4 class="media-heading">Paloma</h4>
+		      <p>Mi Labrador sufre una artrosis bastante grave. Desde hace 3 meses le doy Arthrofit como complemento y desde entonces puede jugar y correr durante más tiempo con sus "amigos". Seguiré dándole Arthrofit!.</p>
+		    </div>
+		  </div>
+		  <form>
+		 	 <textarea class="form-control" rows="3">Deja tu comentario:</textarea>
+			 <button type="button" class="btn btn-primary">Enviar</button>
+	  	  </form>
+	  	</div>
+	</div>
+</div> 

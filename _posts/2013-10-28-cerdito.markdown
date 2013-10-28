@@ -1,0 +1,67 @@
+---
+layout: post
+title:  "Juguete cerdito para masajes"
+categories: jekyll update
+price: 30 Euros
+image: /images/cerdito.jpg
+category: Juguetes
+avatar: /images/components.png
+---
+
+<h2>{{ page.title }}</h2>
+<div class=row>
+<div id="left" class=col-md-4>
+	<img src="{{ site.baseurl }}{{ page.image }}" alt="{{ page.title }}">
+	<h3>{{ page.price }}</h3>
+	<button type="button" class="btn btn-primary btn-lg">Comprar</button>
+</div>
+
+<div id="right" class=col-md-8>
+	<ul class="nav nav-tabs" id="myTab">
+	  <li class="active"><a href="#description" data-toggle="tab">Descripción</a></li>
+	  <li><a href="#specifications" data-toggle="tab">Especificaciones Técnicas</a></li>
+	  <li><a href="#comments" data-toggle="tab">Comentarios</a></li>
+	</ul>
+
+	<div class="tab-content">
+	  <div class="tab-pane active" id="description">
+		<p><strong>Precioso cerdito con una pelota en su interior para masajear las encías, es un juguete perfecto para morder. Limpia los dientes y masajea las encías del perro mientras juega.</strong></p>
+		<p>Este juguete maravilloso no solo es divertido, sino que además la pelota del interior es benéfica porque fomenta la salud de las encías y de los dientes del perro. Además, es ideal para acurrucarse y relajarse cuando tu perro se haa cansado de gastar energía. </p>
+	  </div>
+	  <div class="tab-pane" id="specifications">
+	  	<ul>
+			<li>Color: rosa
+			<li>Material: 100 % poliéster
+			<li>Material exterior: felpa
+			<li>Pelota para el cuidado de los dientes en el interior
+			<li>Cómodo masaje al morder
+			<li>Rebota
+	  	</ul>
+	  </div>
+	  <div class="tab-pane" id="comments">
+		  <div class="media">
+		    <a class="pull-left" href="#">
+		      <img class="media-object" src="{{ site.baseurl }}{{ page.avatar }}" alt="avatar">
+		    </a>
+		    <div class="media-body">
+		      <h4 class="media-heading">A. Einstein</h4>
+		      <p>Le compré el grande a mi perro, un Mastín Español, y aunque ahora no le haga mucho caso, de más cachorro se lo pasaba pipa. Sorprendentemente no lo ha roto, sabiendo que los mastines tienen una mordida bastante fuerte...</p>
+		    </div>
+		  </div>
+		  
+		  <div class="media">
+		    <a class="pull-left" href="#">
+		      <img class="media-object" src="{{ site.baseurl }}{{ page.avatar }}" alt="avatar">
+		    </a>
+		    <div class="media-body">
+		      <h4 class="media-heading">Elvis Presley</h4>
+		      <p>Nuestra pastor belga se entretiene muchísimo con el Kong. Es muy resistente, lo tiene desde hace meses y no tiene ni un rasguño. Es una buena solución para dejarla ocupada un buen rato mientras estás fuera de casa.</p>
+		    </div>
+		  </div>
+		  <form>
+		 	 <textarea class="form-control" rows="3">Deja tu comentario:</textarea>
+			 <button type="button" class="btn btn-primary">Enviar</button>
+	  	  </form>
+	  	</div>
+	</div>
+</div> 

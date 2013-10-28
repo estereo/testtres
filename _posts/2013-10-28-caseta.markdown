@@ -1,0 +1,68 @@
+---
+layout: post
+title:  "Caseta de plástico para perros Polly"
+categories: jekyll update
+price: 75 Euros
+image: /images/caseta.jpg
+category: Casetas y Jaulas
+avatar: /images/components.png
+---
+
+<h2>{{ page.title }}</h2>
+<div class=row>
+<div id="left" class=col-md-4>
+	<img src="{{ site.baseurl }}{{ page.image }}" alt="{{ page.title }}">
+	<h3>{{ page.price }}</h3>
+	<button type="button" class="btn btn-primary btn-lg">Comprar</button>
+</div>
+
+<div id="right" class="col-md-8">
+	<ul class="nav nav-tabs" id="myTab">
+	  <li class="active"><a href="#description" data-toggle="tab">Descripción</a></li>
+	  <li><a href="#specifications" data-toggle="tab">Especificaciones Técnicas</a></li>
+	  <li><a href="#comments" data-toggle="tab">Comentarios</a></li>
+	</ul>
+
+	<div class="tab-content">
+	  <div class="tab-pane active" id="description">
+		<p><strong>Realizada con materiales de gran calidad y apta para uso en exteriores e interiores. Es muy fácil de limpiar y por lo tanto ideal para perros con alergias.</strong></p>
+		<p>La caseta de plástico para perros Polly está realizada con plástico de alta calidad y es el refugio ideal para todos los perros que tienden a acumular suciedad en la caseta. Se puede limpiar fácilmente, incluso con la manguera del jardín. Para una circulación de aire adecuada, sobre todo en verano, la caseta dispone de muchas salidas de aire, por lo que no se produce acumulación de calor en el interior.</p>
+	  </div>
+	  <div class="tab-pane" id="specifications">
+	  	<ul>
+			<li>Color: exterior gris claro, tejado gris oscuro.
+			<li>Plástico resistente y de alta calidad.
+			<li>Montaje fácil.
+			<li>Fácil de limpiar e higiénica.
+			<li>Libre de pulgas y ácaros.
+			<li>Buena circulación de aire gracias a las múltiples ranuras de ventilación.
+			<li>Apta para interior y exterior.
+	  	</ul>
+	  </div>
+	  <div class="tab-pane" id="comments">
+		  <div class="media">
+		    <a class="pull-left" href="#">
+		      <img class="media-object" src="{{ site.baseurl }}{{ page.avatar }}" alt="avatar">
+		    </a>
+		    <div class="media-body">
+		      <h4 class="media-heading">Ada Lovelace</h4>
+		      <p>Tengo mi Golfo que es abuelete ya, tiene 12,5 años, mis otros dos perros Gema y Petit son jóvenes solo 2 años, por lo que están todo el día jugando. Mi Golfo solo quiere tranquilidad y que no le molesten por lo que la casita ha sido todo un acierto, pasa todo el día en ella y lo mejor es que es resistente y se limpia muy fácil.</p>
+		    </div>
+		  </div>
+		  
+		  <div class="media">
+		    <a class="pull-left" href="#">
+		      <img class="media-object" src="{{ site.baseurl }}{{ page.avatar }}" alt="avatar">
+		    </a>
+		    <div class="media-body">
+		      <h4 class="media-heading">Antonio Banderas</h4>
+		      <p>Me gustaría saber que medida de caseta debo comprar para una bóxer y una bobtail. Quiero comprar dos casetas.</p>
+		    </div>
+		  </div>
+		  <form>
+		 	 <textarea class="form-control" rows="3">Deja tu comentario:</textarea>
+			 <button type="button" class="btn btn-primary">Enviar</button>
+	  	  </form>
+	  	</div>
+	</div>
+</div> 

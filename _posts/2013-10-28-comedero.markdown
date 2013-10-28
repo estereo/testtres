@@ -1,0 +1,67 @@
+---
+layout: post
+title:  "Dispensador de pienso Le Bistro"
+categories: jekyll update
+price: 100 Euros
+image: /images/comedero.jpg
+category: Accesorios
+avatar: /images/components.png
+---
+
+<h2>{{ page.title }}</h2>
+<div class=row>
+<div id="left" class=col-md-4>
+	<img src="{{ site.baseurl }}{{ page.image }}" alt="{{ page.title }}">
+	<h3>{{ page.price }}</h3>
+	<button type="button" class="btn btn-primary btn-lg">Comprar</button>
+</div>
+
+<div id="right" class=col-md-8>
+	<ul class="nav nav-tabs" id="myTab">
+	  <li class="active"><a href="#description" data-toggle="tab">Descripción</a></li>
+	  <li><a href="#specifications" data-toggle="tab">Especificaciones Técnicas</a></li>
+	  <li><a href="#comments" data-toggle="tab">Comentarios</a></li>
+	</ul>
+
+	<div class="tab-content">
+	  <div class="tab-pane active" id="description">
+		<p><strong>Dispensador programable para perros y gatos con capacidad para 2,2 kg de pienso. Fácil de limpiar.</strong></p>
+		<p>Este práctico dispensador es adecuado tanto para perros como para gatos. Dispone de un contenedor extra grande con capacidad para 2,2 kg de pienso y gracias a su temporizador permite una racionalización perfecta para cada hora de la comida. Se pueden programar hasta tres horas distintas en un día; incluso se puede programar la cantidad de comida a servir. Programar las horas de comida es muy fácil con este dispensador.</p>
+	  </div>
+	  <div class="tab-pane" id="specifications">
+	  	<ul>				
+			<li>Altura total del producto: 46,5 cm.
+			<li>Diámetro del dispensador: 25,5 cm.
+			<li>Altura del dispensador sin tapa: 24,0 cm.
+			<li>Altura del dispensador con tapa: 26,5 cm.
+			<li>Longitud de la base del dispensador: 23,0 cm.
+	  	</ul>
+	  </div>
+	  <div class="tab-pane" id="comments">
+		  <div class="media">
+		    <a class="pull-left" href="#">
+		      <img class="media-object" src="{{ site.baseurl }}{{ page.avatar }}" alt="avatar">
+		    </a>
+		    <div class="media-body">
+		      <h4 class="media-heading">Miguel de Cervantes</h4>
+		      <p>Fácil de programar y con gran capacidad. En nuestro caso nos viene genial para poder poner a dieta a los dos gatos que tenemos, calculamos perfectamente las cantidades de comida diarias y se las dosificamos en tres tomas. Buena elección.</p>
+		    </div>
+		  </div>
+		  
+		  <div class="media">
+		    <a class="pull-left" href="#">
+		      <img class="media-object" src="{{ site.baseurl }}{{ page.avatar }}" alt="avatar">
+		    </a>
+		    <div class="media-body">
+		      <h4 class="media-heading">Andrés Calamaro</h4>
+		      <p>No es que sea espectacular por que no siempre cae la misma cantidad pero es práctico. Puedes estar fuera que sabes que le va a caer su porción de comida sin tener que dejar el comedero lleno.</p>
+		    </div>
+		  </div>
+		  <form>
+		 	 <textarea class="form-control" rows="3">Deja tu comentario:</textarea>
+			 <button type="button" class="btn btn-primary">Enviar</button>
+	  	  </form>
+	  	</div>
+	</div>
+</div> 
+
